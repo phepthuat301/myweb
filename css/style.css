@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Playfair+Display+SC&display=swap');
+
+html, body {
+	height: 90%;
+	width: 90%;
+	font-size:20px;
+	margin:auto;
+	background: rgb(255, 255, 255);
+}
+.navbar {
+	background-color: #007bff6e !important;
+}
+.navbar li a{
+	/* color: black !important; */
+}
+.navbar li a:hover{
+	color: #165c97!important;
+}
+.navbar a{
+	color:white;
+	margin-right: 10px;
+}
+.navbar ul li{
+	position:relative;
+}
+.navbar ul li > .sub-menu{
+	display:none;
+	position:absolute;
+}
+.navbar ul li:hover .sub-menu{
+	display:block;
+}
+.sub-menu{
+	list-style-type: none;
+	background-color: #91c6ff;
+	padding:5px;
+	font-size: 0.9em;
+	border-radius: 10px;
+}
+.sub-menu a{
+	text-decoration:none;
+	text-align: left;
+	color: #668bb3;
+}
+
+.carousel-inner img{
+	width:100%;
+}
+.carousel-indicators li{
+	background-color:rgb(58, 0, 255);
+}
+.carousel-caption {
+	position: absolute;
+	top: 30%;
+}
+.carousel-caption h1 {
+	text-transform: uppercase;
+	text-shadow: 5px 5px 15px #000;
+}
+.carousel-caption h3 {
+	text-shadow: 2px 2px 10px #000;
+}
+#jumbotron{
+	margin-top: 10px;
+    background-color: #91c6ff;
+    border-radius: 10px;
+    padding: 10px;
+}
+footer {
+	margin-top:10px;
+	background-color: #185884bf;
+	color: #d5d5d5;
+}
+#fbicon{
+	font-size: 3em;/*1em = 16px*/
+	padding: 3rem;/*1rem = 1 "font-size" */
+	color: #3b5998;
+}
+.fa-mobile-alt{
+	font-size: 3em;/*1em = 16px*/
+	padding: 3rem;/*1rem = 1 "font-size" */
+	color: #3b5998;
+}
+.my-4{
+	background-color:black;
+}
+#textleft p{
+	text-align:left;
+	font-size:1.5rem;
+}
+#button .btn-lg{
+	font-size:1rem;
+}
+.content a img{
+	margin-top:10px;
+	padding: 5px;
+}
+#textleft .fa, .fas, .far{
+	font-size:2rem;
+}
+.content h2:nth-child(1){
+	color:transparent;
+	-webkit-text-stroke: 2px #03a9f4
+}
+.content h2:nth-child(2){
+	color:#03a9f4;
+	animation:animate 2s ease-in-out infinite;
+}
+.content{
+	position:relative;
+}
+.content h2{
+	position:absolute;
+	font-size:5em;
+}
+@keyframes animate
+{
+	0%,100%
+	{
+		clip-path: polygon(0 55%, 19% 52%, 33% 59%, 54% 68%, 71% 68%, 84% 59%, 100% 54%, 100% 100%, 0% 99%);
+
+	}
+	50%
+	{
+		clip-path: polygon(0 68%, 19% 70%, 33% 64%, 45% 60%, 63% 60%, 80% 54%, 100% 54%, 100% 100%, 0% 99%);
+
+	}
+}
+
+
+/*Media Query*/
+@media (
+	max-width: 992px){
+	.carousel-caption {
+		top: 20%;
+	}
+	.carousel-caption h1{
+	font-size: 250%;
+	}
+	.carousel-caption h3{
+	font-size: 160%;		
+	}
+	.carousel-caption .btn{
+	font-size: 120%;		
+	}
+	html,body{
+		height: 100%;
+		width: 100%;
+	}
+	.navbar ul li:hover .sub-menu{
+	display:none;
+	}
+}
+@media (
+	max-width: 768px){	
+	.carousel-caption {
+		top: 20%;
+	}
+	.carousel-caption h1{
+	font-size: 220%;
+	}
+	.carousel-caption h3{
+	font-size: 140%;
+	padding-bottom: 0.2rem;
+	}
+	.btn{
+	font-size: 95%;
+	padding: 8px 14px;
+	}
+	.navbar ul li:hover .sub-menu{
+	display:none;
+	}
+}
+@media (
+	max-width: 576px){
+	.carousel-caption {
+		top: 10%;
+	}
+	.carousel-caption h1{
+	font-size: 150%;
+	}
+	.carousel-caption h3{
+	font-size: 110%;		
+	}
+	.btn {
+	font-size: 90%;
+	padding: 4px 8px;
+	}
+	#news {
+		width: 200px !important;
+		height: 150px !important;
+	}
+	p{
+		font-size: 15px !important;
+	}
+}
