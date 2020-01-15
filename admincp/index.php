@@ -22,10 +22,17 @@
     });
     </script>
     <link rel="stylesheet" type="text/css" href="css/css.css" />
-   <!-- <script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
-    <script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script> -->
 </head>
-
+<?php
+session_start();
+if(!isset($_SESSION['dangnhap'])){
+    header('location:login.php');
+}
+elseif(isset($_POST['thoat'])){
+    unset($_SESSION['dangnhap']);
+    header('location:login.php');
+}
+?>
 <body>
 <div id="wrapper">
 	<?php

@@ -21,16 +21,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admincp" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\TEST2\WebContent\modules" />
-      <recent name="C:\xampp\htdocs\TEST2\WebContent\Uploads" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\TEST2\WebContent\admincp" />
       <recent name="C:\xampp\htdocs\TEST2\WebContent\modules" />
       <recent name="C:\xampp\htdocs\TEST2\WebContent" />
+      <recent name="C:\xampp\htdocs\TEST2\WebContent\Uploads" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\TEST2\WebContent\modules" />
       <recent name="C:\xampp\htdocs\TEST2\WebContent\Uploads" />
     </key>
   </component>
@@ -57,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578808300534</updated>
       <workItem from="1578808303492" duration="38597000" />
-      <workItem from="1579052987986" duration="975000" />
+      <workItem from="1579052987986" duration="3871000" />
     </task>
     <servers />
   </component>
