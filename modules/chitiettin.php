@@ -13,3 +13,5 @@ $dong=mysqli_fetch_array($baiviet);
         <img src="./imgs/Scroll to top.gif" width="40" height="40" />
     </div>
 </div>
+<hr class="" style="border-top:2px solid rgba(2,80,126,0.79);">
+<div class="fb-comments container" data-href="https://hocjs.000webhostapp.com/" data-width="auto" data-numposts="5"></div>

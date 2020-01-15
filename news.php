@@ -28,6 +28,7 @@ include('modules/content.php');
 include('modules/footer.php');
 ?>
 
-
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v5.0"></script>
 </body>
 </html>
