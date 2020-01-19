@@ -19,6 +19,11 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
 </head>
 <body>
+<?php
+include("modules/config.php");
+$sql="select * from baiviet order by idbaiviet desc";
+$hinhanh=mysqli_query($conn,$sql);
+?>
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 		<div class="container-fluid">
@@ -32,6 +37,7 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item"><a class="nav-link" href="index.php">Trang Chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news.php">Tin Tức</a></li>
 					<li class="nav-item"><a class="nav-link" href="about.php">Giới Thiệu</a></li>
 					<li class="nav-item"><a class="nav-link active" href="vision.php">Hình Ảnh</a>
 					    	<ul class="sub-menu">
@@ -47,34 +53,19 @@
 		</div>
 	</nav>
 	<!-- Image Gallery-->
+
 	<div class="content">
-		<a data-fancybox="gallery" href="uploads/tuvien.jpg" data-caption="Caption for single image"><img src="uploads/tuvien.jpg" width=150 height=150></a>
-		<a data-fancybox="gallery" href="./img/logo3.png"><img src="./img/logo3.png" width=150 height=150></a>
-		<a data-fancybox="gallery" href="./img/logo3.png"><img src="./img/logo3.png" width=150 height=150></a>
-	</div>  
+        <?php
+        while($dong=mysqli_fetch_array($hinhanh)){
+        ?>
+		<a data-fancybox="gallery" href="<?php echo $dong['anhminhhoa']?>" data-caption="<?php echo $dong['anhminhhoa']?>"><img src="<?php echo $dong['anhminhhoa']?>" width=150 height=150></a>
+            <?php
+        }
+        ?>
+	</div>
+
 	<!-- Footer -->
-	<footer>
-			<div class="container-fluid padding">
-				<div class="row text-center">
-					<div class="col-12">
-						<hr class="light-100">
-					</div>
-					<div class="col-md-4">
-						<img src="./img/logo3.png" height="150" width="150">
-					</div>
-					<div class="col-md-8" id="textleft">
-						
-						<p><i class="fas fa-phone-square" style="margin-right: 20px;"></i>0905212599</p>
-						<p><i class="far fa-envelope" style="margin-right: 20px;"></i>bctthanhngo@gmail.com</p>
-						<p><i class="fas fa-map-marker-alt" style="margin-right: 20px;"></i>Hội An - Đà Nẵng</p>
-					</div>
-					<div class="col-12">
-						<hr class="light-100">
-						<h5>2019 &copy; HẠNH NGỘ</h5>
-					</div>
-				</div>
-			</div>
-		</footer>
+    <?php include('modules/footer.php') ?>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
 		<script type="text/javascript" src="/fancybox/jquery.easing-1.4.pack.js"></script>
 		<script src="./JS/main.js"></script>

@@ -24,14 +24,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/admincp" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\TEST2\WebContent\css" />
+      <recent name="C:\xampp\htdocs\TEST2\WebContent\modules" />
+      <recent name="C:\xampp\htdocs\TEST2\WebContent\Uploads" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\TEST2\WebContent\admincp" />
       <recent name="C:\xampp\htdocs\TEST2\WebContent\modules" />
       <recent name="C:\xampp\htdocs\TEST2\WebContent" />
-      <recent name="C:\xampp\htdocs\TEST2\WebContent\Uploads" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\TEST2\WebContent\modules" />
       <recent name="C:\xampp\htdocs\TEST2\WebContent\Uploads" />
     </key>
   </component>
@@ -58,7 +59,12 @@
       <option name="presentableId" value="Default" />
       <updated>1578808300534</updated>
       <workItem from="1578808303492" duration="38597000" />
-      <workItem from="1579052987986" duration="3871000" />
+      <workItem from="1579052987986" duration="7367000" />
+      <workItem from="1579137001388" duration="80000" />
+      <workItem from="1579137171421" duration="63000" />
+      <workItem from="1579138061690" duration="59000" />
+      <workItem from="1579138134655" duration="7442000" />
+      <workItem from="1579307877918" duration="6809000" />
     </task>
     <servers />
   </component>
@@ -66,14 +72,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="635" y="354" key="NewPhpFileDialog" timestamp="1578930107893">
+    <state x="560" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579310562522">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="635" y="354" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1578930107893" />
-    <state x="495" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1579052986965">
+    <state x="560" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1579310562522" />
+    <state x="480" y="159" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579138110790">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="495" y="255" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1579052986965" />
+    <state x="480" y="159" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.860@0.0.1600.860" timestamp="1579138110790" />
+    <state x="530" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579140991384">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1579140991384" />
+    <state x="635" y="354" key="NewPhpFileDialog" timestamp="1579310569620">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="635" y="354" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1579310569620" />
+    <state x="495" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1579307895402">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="495" y="255" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1579307895402" />
     <state x="497" y="162" width="736" height="536" key="find.popup" timestamp="1578996641981">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

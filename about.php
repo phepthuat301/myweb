@@ -20,13 +20,20 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a class="nav-link" href="index.php">Trang Chủ</a></li>
-					<li class="nav-item"><a class="nav-link active" href="about.php">Giới Thiệu</a></li>
-					<li class="nav-item"><a class="nav-link" href="vision.php">Hình Ảnh</a></li>
-					<li class="nav-item"><a class="nav-link" href="team.php">Đại Lễ</a></li>
-					<li class="nav-item"><a class="nav-link" href="connect.php">Liên Hệ</a></li>
-				</ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.php">Trang Chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news.php">Tin Tức</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.php">Giới Thiệu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="vision.php">Hình Ảnh</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Hình Ảnh 1</a></li>
+                            <li><a href="#">Hình Ảnh 2</a></li>
+                            <li><a href="#">Hình Ảnh 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="team.php">Đại Lễ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="connect.php">Liên Hệ</a></li>
+                </ul>
 			</div>
 		</div>
 	</nav>
@@ -52,7 +59,7 @@
 		</div>
 		<div class="col-md-6">
 				<div class="row text-center padding" id="button"
-					style="margin-top: 200; margin-bottom: 20;">
+					style="margin-top: 200px; margin-bottom: 20px;">
 					<div class="col-md-6">
 						<button type="button" class="btn btn-outline-light btn-lg">Hình
 							Ảnh Sinh Hoạt</button>
@@ -69,28 +76,6 @@
 		</div>
 	</div>
 </div>
-<!-- Footer -->
-<footer>
-			<div class="container-fluid padding">
-				<div class="row text-center">
-					<div class="col-12">
-						<hr class="light-100">
-					</div>
-					<div class="col-md-4">
-						<img src="./img/logo3.png" height="150" width="150">
-					</div>
-					<div class="col-md-8" id="textleft">
-						
-						<p><i class="fas fa-phone-square" style="margin-right: 20px;"></i>0905212599</p>
-						<p><i class="far fa-envelope" style="margin-right: 20px;"></i>bctthanhngo@gmail.com</p>
-						<p><i class="fas fa-map-marker-alt" style="margin-right: 20px;"></i>Hội An - Đà Nẵng</p>
-					</div>
-					<div class="col-12">
-						<hr class="light-100">
-						<h5>2019 &copy; HẠNH NGỘ</h5>
-					</div>
-				</div>
-			</div>
-		</footer>
+    <?php include('modules/footer.php') ?>
 </body>
 </html>

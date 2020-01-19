@@ -47,12 +47,12 @@
 		</div>
 	</nav>
 	<!-- Carousel -->
-	<div id="slides" class="carousel slide" data-ride="carousel">
+	<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
 		<ul class="carousel-indicators">
-			<li data-target="#slides" data-slide-to="0" class="active"></li>
-			<li data-target="#slides" data-slide-to="1"></li>
-			<li data-target="#slides" data-slide-to="2"></li>
-			<li data-target="#slides" data-slide-to="3"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 		</ul>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
@@ -75,6 +75,14 @@
 				<img src="./img/carousel4.jpg" height="500px" width="500px">
 			</div>
 		</div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
 	</div>
 	<!--  JUMBOTRON -->
 	<div class="container-fluid" id="jumbotron">
@@ -97,7 +105,7 @@
 		<div class="row text-center padding">
 			<div class="col-md-6">
 				<a href="#"> 
-				<img id="news"  src="./img/logo3.png" height="400px" width="400px" style="padding:20px">
+				<img id="index"  src="./img/logo3.png" height="400px" width="400px" style="padding:20px">
 				</a><br>
 				<a href="#">
 					<button type="button" class="btn btn-outline-secondary">
@@ -105,7 +113,7 @@
 				</a>
 			</div>
 			<div class="col-md-6">
-				<a href="#"> <img id="news"  src="./img/logo3.png" height="400px" width="400px" style="padding:20px">
+				<a href="#"> <img id="index"  src="./img/logo3.png" height="400px" width="400px" style="padding:20px">
 				</a><br>
 				<a href="#">
 					<button type="button" class="btn btn-outline-secondary">
@@ -115,5 +123,6 @@
 		</div>	
 	</div>
 <?php include('modules/footer.php') ?>
+<script src="./JS/main.js"></script>
 </body>
 </html>
